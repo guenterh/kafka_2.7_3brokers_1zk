@@ -1,0 +1,7 @@
+change path in kafka-topics-administrator/config/config.properties 
+
+topics.config.path=/usr/local/swissbib/current.kafka.2.7.0/kafka-topics-administrator/config/topics.yaml
+
+into your local environment
+
+
