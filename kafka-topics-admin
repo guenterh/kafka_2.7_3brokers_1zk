@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+
+export BASE="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+#$BASE/kafka-topics-administrator/bin/kafka-topics-administrator -c  $BASE/kafka-topics-administrator/config/config.properties $@
+
+echo $BASE
+
+cd $BASE/kafka-topics-administrator
+
+$BASE/kafka-topics-administrator/bin/kafka-topics-administrator  $@
