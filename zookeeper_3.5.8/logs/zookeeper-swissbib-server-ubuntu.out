@@ -1,0 +1,44 @@
+2021-01-10 14:19:21,057 [myid:] - INFO  [main:QuorumPeerConfig@135] - Reading configuration from: /usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../conf/zoo.cfg
+2021-01-10 14:19:21,060 [myid:] - WARN  [main:VerifyingFileFactory@59] - ../../zkdata/server1 is relative. Prepend ./ to indicate that you're sure!
+2021-01-10 14:19:21,065 [myid:] - INFO  [main:QuorumPeerConfig@387] - clientPortAddress is 0.0.0.0:14181
+2021-01-10 14:19:21,066 [myid:] - INFO  [main:QuorumPeerConfig@391] - secureClientPort is not set
+2021-01-10 14:19:21,067 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2021-01-10 14:19:21,067 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2021-01-10 14:19:21,067 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2021-01-10 14:19:21,067 [myid:] - WARN  [main:QuorumPeerMain@125] - Either no config or no quorum defined in config, running  in standalone mode
+2021-01-10 14:19:21,070 [myid:] - INFO  [main:ManagedUtil@45] - Log4j 1.2 jmx support found and enabled.
+2021-01-10 14:19:21,076 [myid:] - INFO  [main:QuorumPeerConfig@135] - Reading configuration from: /usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../conf/zoo.cfg
+2021-01-10 14:19:21,076 [myid:] - WARN  [main:VerifyingFileFactory@59] - ../../zkdata/server1 is relative. Prepend ./ to indicate that you're sure!
+2021-01-10 14:19:21,076 [myid:] - INFO  [main:QuorumPeerConfig@387] - clientPortAddress is 0.0.0.0:14181
+2021-01-10 14:19:21,076 [myid:] - INFO  [main:QuorumPeerConfig@391] - secureClientPort is not set
+2021-01-10 14:19:21,076 [myid:] - INFO  [main:ZooKeeperServerMain@117] - Starting server
+2021-01-10 14:19:21,078 [myid:] - INFO  [main:FileTxnSnapLog@115] - zookeeper.snapshot.trust.empty : false
+2021-01-10 14:19:21,084 [myid:] - INFO  [main:Environment@109] - Server environment:zookeeper.version=3.5.8-f439ca583e70862c3068a1f2a7d4d068eec33315, built on 05/04/2020 15:07 GMT
+2021-01-10 14:19:21,085 [myid:] - INFO  [main:Environment@109] - Server environment:host.name=ubuntu
+2021-01-10 14:19:21,085 [myid:] - INFO  [main:Environment@109] - Server environment:java.version=11.0.7
+2021-01-10 14:19:21,085 [myid:] - INFO  [main:Environment@109] - Server environment:java.vendor=AdoptOpenJDK
+2021-01-10 14:19:21,085 [myid:] - INFO  [main:Environment@109] - Server environment:java.home=/usr/local/jdk-11.0.7+10
+2021-01-10 14:19:21,085 [myid:] - INFO  [main:Environment@109] - Server environment:java.class.path=/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../zookeeper-server/target/classes:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../build/classes:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../zookeeper-server/target/lib/*.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../build/lib/*.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/zookeeper-jute-3.5.8.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/zookeeper-3.5.8.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/slf4j-log4j12-1.7.25.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/slf4j-api-1.7.25.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/netty-transport-native-unix-common-4.1.48.Final.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/netty-transport-native-epoll-4.1.48.Final.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/netty-transport-4.1.48.Final.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/netty-resolver-4.1.48.Final.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/netty-handler-4.1.48.Final.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/netty-common-4.1.48.Final.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/netty-codec-4.1.48.Final.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/netty-buffer-4.1.48.Final.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/log4j-1.2.17.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/json-simple-1.1.1.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/jline-2.11.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/jetty-util-9.4.24.v20191120.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/jetty-servlet-9.4.24.v20191120.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/jetty-server-9.4.24.v20191120.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/jetty-security-9.4.24.v20191120.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/jetty-io-9.4.24.v20191120.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/jetty-http-9.4.24.v20191120.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/javax.servlet-api-3.1.0.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/jackson-databind-2.10.3.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/jackson-core-2.10.3.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/jackson-annotations-2.10.3.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/commons-cli-1.2.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../lib/audience-annotations-0.5.0.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../zookeeper-*.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../zookeeper-server/src/main/resources/lib/*.jar:/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin/../conf:
+2021-01-10 14:19:21,085 [myid:] - INFO  [main:Environment@109] - Server environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2021-01-10 14:19:21,086 [myid:] - INFO  [main:Environment@109] - Server environment:java.io.tmpdir=/tmp
+2021-01-10 14:19:21,086 [myid:] - INFO  [main:Environment@109] - Server environment:java.compiler=<NA>
+2021-01-10 14:19:21,086 [myid:] - INFO  [main:Environment@109] - Server environment:os.name=Linux
+2021-01-10 14:19:21,086 [myid:] - INFO  [main:Environment@109] - Server environment:os.arch=amd64
+2021-01-10 14:19:21,086 [myid:] - INFO  [main:Environment@109] - Server environment:os.version=4.15.0-129-generic
+2021-01-10 14:19:21,086 [myid:] - INFO  [main:Environment@109] - Server environment:user.name=swissbib
+2021-01-10 14:19:21,086 [myid:] - INFO  [main:Environment@109] - Server environment:user.home=/home/swissbib
+2021-01-10 14:19:21,086 [myid:] - INFO  [main:Environment@109] - Server environment:user.dir=/usr/local/swissbib/current.kafka.2.7.0/zookeeper_3.5.8/bin
+2021-01-10 14:19:21,086 [myid:] - INFO  [main:Environment@109] - Server environment:os.memory.free=364MB
+2021-01-10 14:19:21,086 [myid:] - INFO  [main:Environment@109] - Server environment:os.memory.max=1000MB
+2021-01-10 14:19:21,086 [myid:] - INFO  [main:Environment@109] - Server environment:os.memory.total=376MB
+2021-01-10 14:19:21,087 [myid:] - INFO  [main:ZooKeeperServer@938] - minSessionTimeout set to 4000
+2021-01-10 14:19:21,087 [myid:] - INFO  [main:ZooKeeperServer@947] - maxSessionTimeout set to 40000
+2021-01-10 14:19:21,087 [myid:] - INFO  [main:ZooKeeperServer@166] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir ../../zkdata/server1/version-2 snapdir ../../zkdata/server1/version-2
+2021-01-10 14:19:21,093 [myid:] - INFO  [main:ServerCnxnFactory@135] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2021-01-10 14:19:21,095 [myid:] - INFO  [main:NIOServerCnxnFactory@673] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+2021-01-10 14:19:21,098 [myid:] - INFO  [main:NIOServerCnxnFactory@686] - binding to port 0.0.0.0/0.0.0.0:14181
+2021-01-10 14:19:21,109 [myid:] - INFO  [main:ZKDatabase@117] - zookeeper.snapshotSizeFactor = 0.33
+2021-01-10 14:19:21,110 [myid:] - INFO  [main:FileSnap@83] - Reading snapshot ../../zkdata/server1/version-2/snapshot.131
+2021-01-10 14:19:21,126 [myid:] - INFO  [main:FileTxnSnapLog@404] - Snapshotting: 0x18c to ../../zkdata/server1/version-2/snapshot.18c
+2021-01-10 14:19:21,138 [myid:] - INFO  [main:ContainerManager@64] - Using checkIntervalMs=60000 maxPerMinute=10000
+2021-01-10 14:19:28,163 [myid:] - INFO  [SyncThread:0:FileTxnLog@218] - Creating new log file: log.18d
