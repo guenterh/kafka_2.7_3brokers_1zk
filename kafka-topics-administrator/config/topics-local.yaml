@@ -1,0 +1,112 @@
+defaults:
+    partitions: 3
+    replicationFactor: 1
+    configurations:
+        - retention.ms=129600000 # 1.5 days
+topics:
+    - name: sb-all
+    - name: hansource  
+    - name: swisscollections-messages  
+    - name: ingest-izrzsalma
+    - name: ingest-izubealma
+    - name: ingest-izubsalma
+    - name: ingest-izuzbalma  
+    - name: swisscollections-messages-out  
+    - name: swisscollections-rawdata-prefix
+    - name: swisscollections-rawdata
+      configurations:
+        - retention.ms=-1
+        - retention.bytes=-1
+        - delete.retention.ms=100
+    - name: swisscollections-filtered  
+      configurations:
+        - retention.ms=-1
+        - retention.bytes=-1
+        - delete.retention.ms=100
+    - name: swisscollections-solrdoc
+    - name: fedora-output-json-records
+    - name: swisscollections-browse-values  
+      configurations:
+        - retention.ms=-1
+        - retention.bytes=-1
+        - cleanup.policy=compact
+        - delete.retention.ms=100  
+    - name: fedora-output-json-records1
+      configurations:
+        - retention.ms=-1
+        - retention.bytes=-1
+        - cleanup.policy=compact
+        - delete.retention.ms=100      
+    - name: mb-di-processed-records-prod
+      configurations:
+        - retention.ms=-1
+        - retention.bytes=-1
+        - cleanup.policy=compact
+        - delete.retention.ms=100
+    - name: edm-es-records2
+      configurations:
+        - retention.ms=-1
+        - retention.bytes=-1
+        - cleanup.policy=compact
+        - delete.retention.ms=100
+    - name: edm-es-records1
+      configurations:
+        - retention.ms=-1
+        - retention.bytes=-1
+        - cleanup.policy=compact
+        - delete.retention.ms=100      
+    - name: edm-es-records 
+      configurations:
+        - retention.ms=-1
+        - retention.bytes=-1
+        - cleanup.policy=compact
+        - delete.retention.ms=100
+    - name: edm-es-report
+    - name: edm-es-report1
+      configurations:
+        - retention.ms=-1
+        - retention.bytes=-1
+        - cleanup.policy=compact
+        - delete.retention.ms=100      
+    - name: import-process-reporting  
+    - name: import-process-reporting-es  
+    - name: memobase-oai
+    - name: marc2kafka_b3kat
+      configurations:
+        - retention.ms=-1
+        - retention.bytes=-1
+        - cleanup.policy=compact
+        - delete.retention.ms=100
+    - name: marc2kafka_dnb
+      configurations:
+        - retention.ms=-1
+        - retention.bytes=-1
+        - cleanup.policy=compact
+        - delete.retention.ms=100  
+    - name: marc2kafka_gbv
+      configurations:
+        - retention.ms=-1
+        - retention.bytes=-1
+        - cleanup.policy=compact
+        - delete.retention.ms=100      
+    - name: marc2kafka_hebis
+      configurations:
+        - retention.ms=-1
+        - retention.bytes=-1
+        - cleanup.policy=compact
+        - delete.retention.ms=100      
+    - name: marc2kafka_zdb  
+      configurations:
+        - retention.ms=-1
+        - retention.bytes=-1
+        - cleanup.policy=compact
+        - delete.retention.ms=100      
+    - name: marc2kafka_process
+      configurations:
+        - retention.ms=-1
+        - retention.bytes=-1
+        - cleanup.policy=compact
+        - delete.retention.ms=100
+
+
+
